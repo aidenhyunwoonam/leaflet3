@@ -23,7 +23,7 @@
             crossorigin=""></script>
         <div id="map"></div>
         <script>
-            var map = L.map("map").setView([51.5, -0.09],15);
+            var map = L.map("map").setView([39.0392,125.7625],15);
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
@@ -44,7 +44,7 @@
             // L.marker([51.5, -0.09], {icon:greenIcon}).addTo(map);
 
             var dubu = L.icon({
-                iconUrl: 'dubu.png',
+                iconUrl: 'kaka.png',
                 iconSize: [300,300]
             });
             L.marker([51.5, -0.09], {icon:dubu}).addTo(map);
